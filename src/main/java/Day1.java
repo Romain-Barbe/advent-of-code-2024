@@ -28,7 +28,7 @@ public class Day1 {
 		var finalDistance = 0;
 		var finalSimilarityScore = 0;
 		for (String line : inputFileContent) {
-			var lineSplitted = line.split("   "); // 3 spaces between each number on each line
+			var lineSplitted = line.split(" {3}"); // 3 spaces between each number on each line
 			firstList.add(Integer.parseInt(lineSplitted[0]));
 			secondList.add(Integer.parseInt(lineSplitted[1]));
 		}
