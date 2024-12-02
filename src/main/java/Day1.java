@@ -12,7 +12,7 @@ public class Day1 {
 
 	public static void main(String[] args) throws IOException {
 		int dayNumber = 1;
-		System.out.println("DAY " + dayNumber + " TEST " + dayNumber + " :");
+		System.out.println("DAY " + dayNumber + " TEST 1 :");
 		Day1 test1 = new Day1(Utils.readInputFile("inputs/day" + dayNumber + "/day" + dayNumber + "Test1.txt"));
 		test1.solve();
 		System.out.println("--------------------------------------------------");
